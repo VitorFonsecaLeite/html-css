@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>listas</title>
+</head>
+<body>
+    
+    <h1>trabalhando com listas</h1>
+<!--type= para o tipo de marcação-->
+<!--start= para definir a partir de que numero inicia a lista, apenas para listas ordenadas -->
+    <h2>listas hordenadas</h2><!--quando a ordem importa-->
+    <ol type="I"   start="4"> <!--types: 1, A, a, I, i-->
+        <li>tomar cafe</li><!--o </li> é opçional a partir do html5-->
+        <li>almocar</li>
+        <li>janatar</li>
+    </ol>
+
+    <h2>listas nao ordenadas</h2><!--quando a ordem não importa-->
+    <ul type="disc"> <!--types: disc, circle, square-->
+        <li>caneta</li>
+        <li>papel</li>
+        <li>lapis</li>
+        <li>tesoura</li>
+    </ul>
+
+    <h2>listas ordenadas dentro de outa</h2>
+    <ol>
+        <li>comidas</li>
+        <ol type="a">
+            <li>carne</li>
+            <li>arrow</li>
+            <li>batata</li>
+        </ol>
+        <li>bebidas</li>
+        <ol type="a" start="4">
+            <li>suco</li>
+            <li>refrigerante</li>
+            <li>vinho</li>
+        </ol>
+    </ol>
+
+    <h2>listas não ordenadas dentro de outa</h2>
+    <ul type="square">
+        <li>comidas</li>
+        <ul type="disc">
+            <li>carne</li>
+            <li>arrow</li>
+            <li>batata</li>
+        </ul>
+        <li>bebidas</li>
+        <ul type="disc" >
+            <li>suco</li>
+            <li>refrigerante</li>
+            <li>vinho</li>
+        </ul>
+    </ul>
+
+    <h2>listas combinadas</h2>
+    <ol type="A">
+        <li>carros</li>
+        <ul type="circle">
+            <li>mercedes</li>
+            <li>fusca</li>
+            <li>camaro</li>
+        </ul>
+        <li>motos</li>
+        <ul type="disc">
+            <li>cg honda</li>
+            <li>harley</li>
+            <li>R1</li>
+        </ul>
+    </ol>
+
+    <h2>lista de definições</h2><!--como se fosse um dicionaria, informamos o termo e a sua definição-->
+    <dl><!-- teg para definition list-->
+        <dt>HTML 5</dt><!--tag para definition term-->
+        <dd>Linguagem de marcação de hiper texto</dd><!--tag para definition description-->
+
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheet, ou Folha de Estilo em Cascatas</dd>
+    </dl>
+
+
+
+</body>
+</html>
